@@ -1,1 +1,2 @@
 # Strange-Counter
+This C# program calculates the value of a “strange counter” at a given time `t`. The counter starts at 3 and decreases by 1 each second, then resets to double its previous starting value after each cycle. The `strangeCounter` function determines which cycle `t` falls into, computes the start value of that cycle, and subtracts the elapsed time within the cycle to get the counter value at time `t`. The `Main` method reads the input time, calls the function, and prints the result.
